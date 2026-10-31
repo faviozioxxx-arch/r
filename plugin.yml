@@ -1,0 +1,16 @@
+name: DuelDraft
+main: me.duel.DuelPlugin
+version: 1.0
+api-version: '1.20'
+description: Duels with a draft of 64 upgrades
+commands:
+  duel:
+    description: Вызвать игрока на дуэль
+    usage: /duel <ник>
+permissions:
+  duel.use:
+    description: Использовать /duel
+    default: true
+  duel.admin:
+    description: Настройка арены
+    default: op
